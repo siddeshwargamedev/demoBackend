@@ -8,7 +8,7 @@ def hello():
 
 
 @app.route('/demoerror')
-def hello():
+def demoerror():
     raise ValueError('A very specific bad thing happened.')
     #return 'This endpoint will throw an error'
 
